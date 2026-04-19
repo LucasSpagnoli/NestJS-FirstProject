@@ -1,0 +1,1 @@
+export const jwtSecret = 'afgegalomeg' // normalmente em .env
