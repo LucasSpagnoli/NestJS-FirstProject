@@ -58,4 +58,9 @@ export class UsersService {
 
         return removedUser
     }
+
+    // auth
+    findUserByName(username: string) {
+        return this.users.find((user)=>user.name===username)
+    }
 }
